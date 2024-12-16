@@ -13,7 +13,7 @@ if b:
 st.sidebar.header("Filters")
 age = st.sidebar.slider("Age", 18, 65, 25)
 gender = st.sidebar.radio("Gender", ["Male", "Female", "Other"])
+category = st.sidebar.radio("Category", ["Teacher", "Student"])
 
+st.write(f"You selected: Age {age}, Gender {gender} and {category}")
 
-
-st.write(f"You selected: Age {age}, Gender {gender}")
