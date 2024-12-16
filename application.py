@@ -17,3 +17,4 @@ category = st.sidebar.radio("Category", ["Teacher", "Student"])
 
 st.write(f"You selected: Age {age}, Gender {gender} and {category}")
 
+st.write('Thank you for visiting us')
